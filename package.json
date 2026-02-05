@@ -1,0 +1,14 @@
+{
+  "name": "pro-league-live-load-tests",
+  "version": "1.0.0",
+  "description": "Load tests for Pro League Live (Hockey Australia) app backend APIs",
+  "scripts": {
+    "load-test": "k6 run load-tests/main.js",
+    "load-test:smoke": "k6 run load-tests/smoke-test.js",
+    "load-test:stress": "k6 run --vus 100 --duration 5m load-tests/main.js",
+    "load-test:spike": "k6 run load-tests/spike-test.js"
+  },
+  "keywords": ["load-testing", "k6", "pro-league-live", "hockey-australia"],
+  "author": "",
+  "license": "MIT"
+}

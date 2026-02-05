@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.local
+*.log
+k6-results/
+.idea/
+.vscode/
+.DS_Store
+reports/*.html
+reports/*.txt
